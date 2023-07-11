@@ -15,18 +15,15 @@ Unlike Bitcoin, ZeroNet Doesn't need a blockchain to run, but uses cryptography 
 
 ## Changelog > NGnoid.TV
 
-### 1.1.0 (3D.NGnoid.TV 0.2.2)
+### 1.0.0
 - (3d.Ngnoid.tv) Added jsZip functionality for easy .zip design/bundle downloads.
 - (3d.Ngnoid.tv) Improved search experience.
-
-### 1.1.0 (NGnoid.TV 0.4.2)
 - (Ngnoid.tv) Added p2p-media-loader functionality. (For web proxy p2p video streaming)
 - (Ngnoid.tv) Added subtitle feature (e.g. uploaded_file_name.mp4 + '.srt')
 - (Ngnoid.tv) Large-scale code cleanup and bug fixes.
 - (Ngnoid.tv) Improved search experience.
 - (Ngnoid.tv) Faster loading speeds.
 
-### 1.0.0
 - Fixed bug which prevented admin access on ZeroNet proxy.
 - Fixed bug which displayed backslashes on site titles (and Google Search results).
 - Meta tag name [descriptioon] now showing on all site headers.
