@@ -1,4 +1,4 @@
-# ZeroNet > NGnoid.TV 
+# NGnoid.TV 
 Decentralized file sharing and streaming websites using peer-to-peer technology: Python, WebRTC, and more.
 
 Unlike Bitcoin, NGnoid.TV Doesn't need a blockchain to run, but uses cryptography used by BTC, to ensure data integrity and validation. Based on ZeroNet (somewhat abandoned due to political polarization).
