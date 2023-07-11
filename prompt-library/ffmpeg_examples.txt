@@ -1,0 +1,12 @@
+Linux:
+
+snap install ffmpeg
+
+/snap/bin/ffmpeg   -i input_video.mp4   -force_key_frames "expr:gte(t,n_forced*2)"   -sc_threshold 0  -vf scale="1280:trunc(ow/a/2)*2"  -qp 28  -c:v libx264   -c:a libfdk_aac -b:a 384k  -hls_time 6   -hls_playlist_type vod   -hls_segment_type fmp4   -hls_segment_filename "VIDEO_NAME.HLS.Q28.720p.NGNOIDTV.m4s" -hls_flags single_file -threads 12  VIDEO_NAME.HLS.Q28.720p.a384k.NGNOIDTV.m3u8
+
+/snap/bin/ffmpeg -hwaccel cuda -i input_video.mp4 -force_key_frames "expr:gte(t,n_forced*2)" -sc_threshold 0 -vf "hwupload_cuda,scale_npp=w=1280:h=-2" -cq:v 26 -c:v h264_nvenc -c:a libfdk_aac -b:a 384k -hls_time 6 -hls_playlist_type vod -hls_segment_type fmp4 -hls_segment_filename "VIDEO_NAME.HLS.Q28.720p.NGNOIDTV.m4s" -hls_flags single_file VIDEO_NAME.HLS.Q28.720p.a384k.NGNOIDTV.m4s.m3u8
+
+Other OS:
+
+ffmpeg   -i input_video.mp4 ...
+ffmpeg -hwaccel cuda ...
