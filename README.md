@@ -153,13 +153,11 @@ There is an official image, built from source at: https://hub.docker.com/r/canew
 Next steps: [ZeroNet Developer Documentation](https://docs.zeronet.dev/1DeveLopDZL1cHfKi8UXHh2UBEhzH6HhMp/site_development/getting_started/)
 
 ## Help keep this project alive
-- Bitcoin: 1ZeroNetyV5mKY9JF1gsm82TuBXHpfdLX (Preferred)
-- LiberaPay: https://liberapay.com/PramUkesh
-- Paypal: https://paypal.me/PramUkesh
-- Others: [Donate](!https://docs.zeronet.dev/1DeveLopDZL1cHfKi8UXHh2UBEhzH6HhMp/help_zeronet/donate/#help-to-keep-zeronet-development-alive)
+Post as much content as you possibly can! It is the content that matters - NOT the features.
 
-#### Thank you!
-
-* More info, help, changelog, zeronet sites: https://www.reddit.com/r/zeronetx/
-* Come, chat with us: [#zeronet @ FreeNode](https://kiwiirc.com/client/irc.freenode.net/zeronet) or on [gitter](https://gitter.im/canewsin/ZeroNet)
-* Email: canews.in@gmail.com
+#### Credits to the veterans
+- nofish
+- imachug
+- lola
+- pramukesh
+- The Open Source Community
